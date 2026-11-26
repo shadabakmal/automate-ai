@@ -1,5 +1,4 @@
-
-# Environment variables
+# Environment variables (backend and frontend)
 .env
 .env.*
 !.env.example
@@ -7,12 +6,13 @@
 # Dependencies
 node_modules/
 
+# Service account credentials
+serviceAccountKey.json
+
 # Build files
 dist/
 build/
+.next/
 
 # Logs
 npm-debug.log*
-
-# Service account credentials
-serviceAccountKey.json
